@@ -51,13 +51,13 @@ build cmake_object_order_depends_target_Simulation: phony || CMakeFiles/Simulati
 
 build CMakeFiles/Simulation.dir/main.c.obj: C_COMPILER__Simulation_Debug C$:/Users/DIGID/CLionProjects/Simulation/main.c || cmake_object_order_depends_target_Simulation
   DEP_FILE = CMakeFiles\Simulation.dir\main.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu90
+  FLAGS = -g -fdiagnostics-color=always -std=gnu99
   OBJECT_DIR = CMakeFiles\Simulation.dir
   OBJECT_FILE_DIR = CMakeFiles\Simulation.dir
 
 build CMakeFiles/Simulation.dir/wave_fun.c.obj: C_COMPILER__Simulation_Debug C$:/Users/DIGID/CLionProjects/Simulation/wave_fun.c || cmake_object_order_depends_target_Simulation
   DEP_FILE = CMakeFiles\Simulation.dir\wave_fun.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu90
+  FLAGS = -g -fdiagnostics-color=always -std=gnu99
   OBJECT_DIR = CMakeFiles\Simulation.dir
   OBJECT_FILE_DIR = CMakeFiles\Simulation.dir
 
