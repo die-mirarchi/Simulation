@@ -3,4 +3,4 @@ project(Simulation C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Simulation main.c wave_fun.h wave_fun.c)
+add_executable(Simulation main.c)
