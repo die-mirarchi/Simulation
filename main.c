@@ -1,3 +1,5 @@
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "cert-msc50-cpp"
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
@@ -19,7 +21,7 @@ int pick_random(int const arr[]);
 void draw_board(cell b[BOARD_SIZE][BOARD_SIZE]);
 int main() {
     setlocale(LC_CTYPE, "");
-    srand(time(NULL));
+    srand((unsigned)time(NULL)); // NOLINT(cert-msc51-cpp)
     cell board[BOARD_SIZE][BOARD_SIZE];
     init_board(board);
     draw_board(board);
@@ -56,3 +58,5 @@ void draw_board(cell b[BOARD_SIZE][BOARD_SIZE]){
     }
 }
 
+
+#pragma clang diagnostic pop
